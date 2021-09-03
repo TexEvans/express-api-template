@@ -4,7 +4,6 @@ import { indexPage, messagesPage } from '../controllers';
 const indexRouter = express.Router();
 
 indexRouter.get('/', indexPage);
-indexRouter.get('/about', indexPage);
 indexRouter.get('/messages', messagesPage);
 
 export default indexRouter;
